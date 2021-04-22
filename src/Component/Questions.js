@@ -58,7 +58,7 @@ export default function Questions(){
                     </div>
                     <div className="col-10">
                         <h4><a href={'/questions/'+e.queId}>{e.title}</a></h4>
-                        <div className="bg-info text-truncate" style={{height:"4vh"}}>
+                        <div className="text-truncate" style={{height:"4vh"}}>
                         <h5>{e.body}</h5>
                         </div>
                         {

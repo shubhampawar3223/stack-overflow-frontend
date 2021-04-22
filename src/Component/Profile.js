@@ -33,7 +33,7 @@ export default function Profile(props){
             (userData.length && userProfile.length) ?   
             <>  
                  
-                 <div >
+                 <div className="ml-5" >
                  <div className="row">    
                  <img className="img-thumbnail" width="300px" height="259px" src={userData[0].profilePic}/>
                  <div className=" col-sm-10 col-lg-6" style={{}}>
